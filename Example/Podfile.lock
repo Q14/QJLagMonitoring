@@ -1,0 +1,32 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PLCrashReporter (1.5.1)
+  - QJLagMonitoring (0.1.0):
+    - PLCrashReporter
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QJLagMonitoring (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PLCrashReporter
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QJLagMonitoring:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PLCrashReporter: e5b72f0d9de3b19e3ea9855094eb3dfb575e3814
+  QJLagMonitoring: fdc143dc89161d5f0d899670ba66200a77e240b0
+
+PODFILE CHECKSUM: 3e96a481e08a2975bebbf62663d2f8a5d8283316
+
+COCOAPODS: 1.9.2

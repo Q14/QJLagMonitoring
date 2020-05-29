@@ -1,0 +1,28 @@
+{
+  "name": "QJLagMonitoring",
+  "version": "0.1.0",
+  "summary": "A short description of QJLagMonitoring.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Q14/QJLagMonitoring",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Q14": "qiaojinzhu@igengmei.com"
+  },
+  "source": {
+    "git": "https://github.com/Q14/QJLagMonitoring.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QJLagMonitoring/Classes/**/*",
+  "dependencies": {
+    "PLCrashReporter": [
+
+    ]
+  },
+  "static_framework": true
+}

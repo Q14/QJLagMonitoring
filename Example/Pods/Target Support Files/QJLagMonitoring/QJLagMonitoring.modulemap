@@ -1,0 +1,6 @@
+framework module QJLagMonitoring {
+  umbrella header "QJLagMonitoring-umbrella.h"
+
+  export *
+  module * { export * }
+}

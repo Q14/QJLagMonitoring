@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QJLagMonitoring_Example' do
+  pod 'QJLagMonitoring', :path => '../'
+
+  target 'QJLagMonitoring_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

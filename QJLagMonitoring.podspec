@@ -29,9 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  #s.dependency 'plcrashreporter'
 
   s.source_files = 'QJLagMonitoring/Classes/**/*'
-  
+  s.dependency 'PLCrashReporter'
+  s.static_framework = true
+
   # s.resource_bundles = {
   #   'QJLagMonitoring' => ['QJLagMonitoring/Assets/*.png']
   # }

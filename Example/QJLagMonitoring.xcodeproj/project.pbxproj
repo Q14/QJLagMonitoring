@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				695AC3C8B5F7C8711C8B40AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,24 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJLagMonitoring_Tests/Pods-QJLagMonitoring_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		695AC3C8B5F7C8711C8B40AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QJLagMonitoring_Example/Pods-QJLagMonitoring_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QJLagMonitoring/QJLagMonitoring.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QJLagMonitoring.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJLagMonitoring_Example/Pods-QJLagMonitoring_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BC0FFBB3E720FD7F954579CE /* [CP] Check Pods Manifest.lock */ = {
